@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_dashboard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400..600&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"on-tertiary-container":"#8d836c","tertiary":"#000000","error":"#ba1a1a","on-primary":"#ffffff","surface-container-low":"#f5f3ed","tertiary-container":"#211b0a","on-surface":"#1b1c18","inverse-on-surface":"#f3f1eb","tertiary-fixed":"#eee1c6","secondary-fixed":"#ffdf9f","on-background":"#1b1c18","on-tertiary-fixed":"#211b0a","inverse-surface":"#30312d","on-secondary":"#ffffff","surface-container-lowest":"#ffffff","on-secondary-fixed-variant":"#5b4301","on-primary-container":"#7c8497","on-secondary-fixed":"#261a00","primary-fixed":"#dbe2f8","on-error":"#ffffff","on-tertiary":"#ffffff","surface-tint":"#575e70","surface-dim":"#dcdad4","surface-container-highest":"#e4e2dd","surface-container-high":"#eae8e2","surface-bright":"#fbf9f3","surface-variant":"#e4e2dd","on-error-container":"#93000a","on-surface-variant":"#45474c","on-tertiary-fixed-variant":"#4e4632","on-primary-fixed":"#141c2b","outline":"#76777d","secondary-fixed-dim":"#e6c277","surface":"#fbf9f3","error-container":"#ffdad6","tertiary-fixed-dim":"#d1c6ab","surface-container":"#f0eee8","secondary":"#765a19","on-secondary-container":"#785d1c","primary":"#000000","outline-variant":"#c6c6cd","on-primary-fixed-variant":"#3f4758","primary-container":"#141c2b","primary-fixed-dim":"#bfc6db","secondary-container":"#fed88b","inverse-primary":"#bfc6db","background":"#fbf9f3"},borderRadius:{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},spacing:{"space-lg":"1.5rem","margin":"1.5rem","space-md":"1rem","space-xs":"0.25rem","space-xl":"2.25rem","space-sm":"0.5rem","gutter":"1.5rem","gutter-desktop":"2rem","margin-desktop":"2.5rem"},fontFamily:{"label-sm":["Plus Jakarta Sans"],"title-md":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"],"headline-md":["Newsreader"],"title-sm":["Plus Jakarta Sans"],"display":["Newsreader"],"headline-sm":["Newsreader"],"body-lg":["Plus Jakarta Sans"],"label-md":["Plus Jakarta Sans"],"label-xs":["Plus Jakarta Sans"],"headline-lg":["Newsreader"]},fontSize:{"label-sm":["0.75rem",{"lineHeight":"1rem","letterSpacing":"0.04em","fontWeight":"600"}],"title-md":["1.125rem",{"lineHeight":"1.625rem","letterSpacing":"-0.01em","fontWeight":"600"}],"body-sm":["0.8125rem",{"lineHeight":"1.25rem","fontWeight":"400"}],"body-md":["0.9375rem",{"lineHeight":"1.5rem","fontWeight":"400"}],"headline-md":["1.75rem",{"lineHeight":"2.25rem","letterSpacing":"-0.01em","fontWeight":"500"}],"title-sm":["1rem",{"lineHeight":"1.5rem","letterSpacing":"0em","fontWeight":"600"}],"display":["2.75rem",{"lineHeight":"3.25rem","letterSpacing":"-0.02em","fontWeight":"400"}],"headline-sm":["1.375rem",{"lineHeight":"1.875rem","letterSpacing":"-0.005em","fontWeight":"500"}],"body-lg":["1.0625rem",{"lineHeight":"1.75rem","fontWeight":"400"}],"label-md":["0.875rem",{"lineHeight":"1.25rem","letterSpacing":"0.01em","fontWeight":"500"}],"label-xs":["0.6875rem",{"lineHeight":"0.875rem","letterSpacing":"0.06em","fontWeight":"600"}],"headline-lg":["2.25rem",{"lineHeight":"2.75rem","letterSpacing":"-0.015em","fontWeight":"400"}]}}}};</script></head><body class="bg-surface-container-low font-body-md text-on-surface antialiased selection:bg-secondary-fixed selection:text-on-secondary-fixed"><aside class="fixed left-0 top-0 h-full w-64 bg-primary-container z-50 flex flex-col justify-between shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="flex flex-col"><div class="h-16 px-space-md flex items-center justify-between"><div class="flex items-center gap-space-sm"><img alt="StudentHub Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VDyyEXglWV03d4xqjUA0ni0U5xIbcJ50Qbn6qLtma3PxKGiJWqi3HouInp7tZ1M1HkCxlFeKShAaWKj3MqOKbDlZjr2VALkvGqsHlzJPDxGn-pTMBhJdlmGAlUGvwH0RFJ-aC3tSRq4RIRKvjFR39t15CXinm1rO5sZEGjk2s03jsucOHp8Up8-eq9Rri37YV4OfRXaxGVu_WWPgxAfeYiJDWJuCL-K0fOPbdf8_Q9"/><span class="font-headline-sm text-headline-sm text-on-primary tracking-tight">Student<span class="text-secondary-fixed-dim font-headline-sm text-headline-sm">Hub</span></span></div><span class="material-symbols-outlined text-outline text-sm">school</span></div><div class="px-space-md pt-space-md pb-space-xs"><span class="font-label-xs text-label-xs text-on-primary-container uppercase tracking-wider">Academic Suite</span></div><nav class="flex flex-col gap-space-xs px-space-sm" data-active-classes="bg-secondary-container text-on-secondary-fixed font-title-sm shadow-sm"><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-lg font-body-md text-body-md text-on-primary-container hover:bg-surface-variant/10 hover:text-on-primary transition-colors" data-path="dashboard" href="#"><span class="material-symbols-outlined text-lg">dashboard</span><span class="">Dashboard</span></a><a aria-current="page" class="flex items-center gap-space-sm px-space-md py-space-sm rounded-lg transition-colors bg-secondary-container text-on-secondary-fixed font-title-sm shadow-sm" data-path="task-manager" href="#"><span class="material-symbols-outlined text-lg">checklist</span><span class="">Task Manager</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-lg font-body-md text-body-md text-on-primary-container hover:bg-surface-variant/10 hover:text-on-primary transition-colors" data-path="course-manager" href="#"><span class="material-symbols-outlined text-lg">menu_book</span><span class="">Course Manager</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-lg font-body-md text-body-md text-on-primary-container hover:bg-surface-variant/10 hover:text-on-primary transition-colors" data-path="study-planner" href="#"><span class="material-symbols-outlined text-lg">calendar_today</span><span class="">Study Planner</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-lg font-body-md text-body-md text-on-primary-container hover:bg-surface-variant/10 hover:text-on-primary transition-colors" data-path="focus-timer" href="#"><span class="material-symbols-outlined text-lg">timer</span><span class="">Focus Timer</span></a><a class="flex items-center gap-space-sm px-space-md py-space-sm rounded-lg font-body-md text-body-md text-on-primary-container hover:bg-surface-variant/10 hover:text-on-primary transition-colors" data-path="progress-summary" href="#"><span class="material-symbols-outlined text-lg">trending_up</span><span class="">Progress Summary</span></a></nav></div><div class="p-space-md m-space-sm rounded-xl bg-surface-variant/10 flex items-center gap-space-sm"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAzgIVwCT8uwpK2peAgkdAZaTBh-tOkjpkgbzD7iaMqeWiPbbENTRMyPRWeXelZR-ZH1lMv6NQfBtl0CjPXf-92DjqStgG3eOkuds-p_JDBZhcpwYhYlCP5_76IAfBs8T5a7d1EKmsVCdsWwZpFQL-K-z4W4mr54pur38YyGMAQL1el6yxqR5vA45-266kuEBny-KjGqsSddzFldpKVTDIQSUosTEkWmWQAwgywSmo"/><div class="flex flex-col min-w-0 flex-1"><span class="font-title-sm text-title-sm text-on-primary truncate">Alex Morgan</span><span class="font-label-xs text-label-xs text-secondary-fixed-dim truncate">Senior · Literature &amp; CS</span></div><span class="material-symbols-outlined text-outline text-base">unfold_more</span></div></aside><div class="pl-64"><header class="fixed top-0 left-64 right-0 h-16 bg-surface-container-low/80 backdrop-blur-xl z-40 shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 w-full px-gutter-desktop flex items-center justify-between"><div class="flex items-center gap-space-md"><span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Fall Semester · Atelier Mode</span></div><div class="flex items-center gap-space-md"><div class="flex items-center gap-space-xs text-on-surface-variant bg-surface-container-lowest px-space-md py-space-xs rounded-full shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><span class="material-symbols-outlined text-base">search</span><span class="font-body-sm text-body-sm text-outline">Search library or notes (⌘K)</span></div><div class="flex items-center gap-space-xs"><button aria-label="Notifications" class="relative p-space-xs rounded-full text-on-surface-variant hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-lg">notifications</span><span class="absolute top-1 right-1 w-2 h-2 rounded-full bg-secondary"></span></button><button aria-label="Settings" class="p-space-xs rounded-full text-on-surface-variant hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-lg">settings</span></button><div class="flex items-center gap-space-xs pl-2 ml-1 border-l border-outline-variant/40"><img alt="Alex Morgan" class="w-7 h-7 rounded-full object-cover border border-secondary/30" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAzgIVwCT8uwpK2peAgkdAZaTBh-tOkjpkgbzD7iaMqeWiPbbENTRMyPRWeXelZR-ZH1lMv6NQfBtl0CjPXf-92DjqStgG3eOkuds-p_JDBZhcpwYhYlCP5_76IAfBs8T5a7d1EKmsVCdsWwZpFQL-K-z4W4mr54pur38YyGMAQL1el6yxqR5vA45-266kuEBny-KjGqsSddzFldpKVTDIQSUosTEkWmWQAwgywSmo"/><span class="font-title-sm text-xs font-medium text-primary-container hidden md:inline-block">Alex M.</span></div></div></div></div></header><main class="relative pt-16 w-full min-h-screen bg-surface-container-low px-gutter-desktop py-margin-desktop"><div class="flex flex-col w-full">
+<!-- Top Academic Notification & Action Bar -->
+<header class="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-space-xl">
+<div>
+<div class="flex items-center gap-space-xs text-secondary mb-space-xs">
+<span class="material-symbols-outlined text-sm">inventory_2</span>
+<span class="font-label-xs text-label-xs uppercase tracking-widest text-secondary font-semibold">Academic Syllabus &amp; Milestones</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-primary tracking-tight font-display">Task Manager</h1>
+<p class="font-body-md text-body-md text-on-surface-variant mt-0.5">Keep track of your assignments and deadlines across the term.</p>
+</div>
+<div class="flex items-center gap-space-sm">
+<button class="inline-flex items-center gap-space-xs px-space-md py-space-sm bg-surface-container-lowest text-on-surface-variant hover:text-on-surface rounded-xl shadow-sm transition-all text-body-sm font-label-md" type="button">
+<span class="material-symbols-outlined text-base">download</span>
+<span class="">Export Syllabus (.ics)</span>
+</button>
+<button class="inline-flex items-center gap-space-xs px-space-lg py-space-sm bg-primary-container text-on-primary rounded-xl shadow-sm hover:bg-on-surface-variant transition-all text-title-sm font-title-sm" id="open-add-task-modal-btn" type="button">
+<span class="material-symbols-outlined text-base text-secondary-fixed">add_circle</span>
+<span class="">+ Add Task</span>
+</button>
+</div>
+</header>
+<!-- Metric Overview Cards -->
+<section class="grid grid-cols-1 md:grid-cols-3 gap-gutter mb-space-xl">
+<!-- Total Tasks -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex items-center justify-between transition-all hover:shadow-md h-auto">
+<div class="flex flex-col gap-1">
+<span class="font-label-xs text-label-xs uppercase tracking-wider text-outline">Total Assignments</span>
+<div class="flex items-baseline gap-space-xs">
+<span class="font-display text-display text-primary leading-none" id="metric-total">23</span>
+<span class="font-label-xs text-label-xs text-on-surface-variant">course requirements</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant/80 mt-1">4 active seminar modules</span>
+</div>
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary-container shrink-0">
+<span class="material-symbols-outlined text-xl">assignment</span>
+</div>
+</div>
+<!-- Pending Tasks -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex items-center justify-between transition-all hover:shadow-md h-auto">
+<div class="flex flex-col gap-1">
+<span class="font-label-xs text-label-xs uppercase tracking-wider text-secondary">Pending Milestones</span>
+<div class="flex items-baseline gap-space-xs">
+<span class="font-display text-display text-secondary leading-none" id="metric-pending">5</span>
+<span class="font-label-xs text-label-xs px-2 py-0.5 rounded-full bg-secondary-container text-on-secondary-fixed font-semibold">2 urgent</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant mt-1">Next due today at 17:00</span>
+</div>
+<div class="w-12 h-12 rounded-xl bg-secondary-container/50 flex items-center justify-center text-secondary shrink-0">
+<span class="material-symbols-outlined text-xl">hourglass_top</span>
+</div>
+</div>
+<!-- Completed Tasks -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex items-center justify-between transition-all hover:shadow-md h-auto">
+<div class="flex flex-col gap-1">
+<span class="font-label-xs text-label-xs uppercase tracking-wider text-outline">Archived &amp; Graded</span>
+<div class="flex items-baseline gap-space-xs">
+<span class="font-display text-display text-primary leading-none" id="metric-completed">18</span>
+<span class="font-label-xs text-label-xs px-2 py-0.5 rounded-full bg-surface-container-high text-on-surface-variant font-semibold">78.2% pacing</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant mt-1">3 submitted this week</span>
+</div>
+<div class="w-12 h-12 rounded-xl bg-surface-container-low flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-xl">check_circle</span>
+</div>
+</div>
+</section>
+<!-- Filter & Utility Toolbar -->
+<section class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm mb-space-md flex flex-col lg:flex-row items-stretch lg:items-center justify-between gap-space-md h-auto">
+<!-- Status Filter Tabs -->
+<div class="flex items-center gap-space-xs p-1 bg-surface-container-low rounded-xl" id="status-filters">
+<button class="filter-btn px-space-md py-space-xs rounded-lg font-title-sm text-body-sm bg-primary-container text-on-primary shadow-sm transition-all" data-filter="all" type="button">
+        All <span class="font-label-xs opacity-75 ml-1">(23)</span>
+</button>
+<button class="filter-btn px-space-md py-space-xs rounded-lg font-title-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-all" data-filter="pending" type="button">
+        Pending <span class="font-label-xs opacity-75 ml-1">(5)</span>
+</button>
+<button class="filter-btn px-space-md py-space-xs rounded-lg font-title-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-all" data-filter="completed" type="button">
+        Completed <span class="font-label-xs opacity-75 ml-1">(18)</span>
+</button>
+</div>
+<!-- Search & Quick Selects -->
+<div class="flex flex-wrap items-center gap-space-sm flex-1 lg:justify-end">
+<!-- Search -->
+<div class="relative min-w-[240px] max-w-sm flex-1">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-base">search</span>
+<input class="w-full bg-surface-container-low text-on-surface font-body-sm text-body-sm rounded-xl pl-9 pr-3 py-2 outline-none focus:bg-surface-container-lowest focus:ring-1 focus:ring-secondary/40 transition-all placeholder:text-outline" id="task-search-input" placeholder="Search assignments or courses..." type="text"/>
+</div>
+<!-- Course Selector -->
+<div class="relative">
+<select class="appearance-none bg-surface-container-low text-on-surface font-label-md text-label-md rounded-xl pl-3 pr-8 py-2 outline-none cursor-pointer hover:bg-surface-container transition-all" id="course-filter-select">
+<option value="all">All Departments</option>
+<option value="PSYC 304">PSYC 304 · Cognitive Psych</option>
+<option value="CS 240">CS 240 · Database Arch.</option>
+<option value="ENG 410">ENG 410 · Victorian Lit.</option>
+<option value="MATH 220">MATH 220 · Calculus III</option>
+</select>
+<span class="material-symbols-outlined absolute right-2 top-1/2 -translate-y-1/2 pointer-events-none text-outline text-sm">unfold_more</span>
+</div>
+<!-- Sort By -->
+<div class="relative">
+<select class="appearance-none bg-surface-container-low text-on-surface font-label-md text-label-md rounded-xl pl-3 pr-8 py-2 outline-none cursor-pointer hover:bg-surface-container transition-all" id="sort-select">
+<option value="due-asc">Sort: Due Date (Earliest)</option>
+<option value="due-desc">Sort: Due Date (Latest)</option>
+<option value="priority-desc">Sort: Highest Priority</option>
+<option value="name-asc">Sort: Title (A-Z)</option>
+</select>
+<span class="material-symbols-outlined absolute right-2 top-1/2 -translate-y-1/2 pointer-events-none text-outline text-sm">sort</span>
+</div>
+</div>
+</section>
+<!-- Academic Task Table Workspace -->
+<div class="flex flex-col mb-space-xl">
+<!-- Table Header Row -->
+<div class="flex items-center px-6 py-2.5 mb-2 font-label-xs text-label-xs text-on-surface-variant uppercase tracking-wider font-semibold select-none gap-4">
+<div class="w-8 shrink-0 flex items-center justify-center">Status</div>
+<div class="flex-1 min-w-0">Assignment Title &amp; Details</div>
+<div class="w-28 shrink-0 hidden md:flex items-center justify-start">Course</div>
+<div class="w-44 shrink-0 hidden sm:flex items-center justify-start">Deadline</div>
+<div class="w-28 shrink-0 flex items-center justify-start">Priority</div>
+<div class="w-20 shrink-0 flex items-center justify-end pr-1">Actions</div>
+</div>
+<!-- Task Cards List -->
+<div class="flex flex-col gap-3" id="task-list">
+<!-- Task 1 -->
+<article class="task-row flex items-center gap-4 px-6 py-4 sm:py-5 bg-surface-container-lowest rounded-xl shadow-sm border border-outline-variant/40 transition-all hover:shadow-md h-auto" data-course="PSYC 304" data-due="2024-10-24T17:00:00" data-priority="high" data-status="pending" data-task-id="1">
+<div class="w-8 shrink-0 flex items-center justify-center">
+<input class="task-checkbox h-4 w-4 rounded cursor-pointer accent-primary-container" type="checkbox"/>
+</div>
+<div class="flex-1 min-w-0 flex flex-col justify-center">
+<h2 class="task-title font-title-sm text-title-sm text-primary leading-snug break-words">Cognitive Psychology Empirical Review</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant break-words mt-0.5">Synthesize 5 peer-reviewed trials on working memory interference models.</p>
+</div>
+<div class="w-28 shrink-0 hidden md:flex items-center">
+<span class="px-2.5 py-1 rounded-lg bg-surface-container-high text-on-surface font-label-xs text-label-xs font-semibold whitespace-nowrap">PSYC 304</span>
+</div>
+<div class="w-44 shrink-0 hidden sm:flex flex-col justify-center">
+<span class="inline-flex items-center gap-1.5 font-label-sm text-label-sm text-error font-semibold whitespace-nowrap">
+<span class="w-1.5 h-1.5 rounded-full bg-error animate-pulse shrink-0"></span> Today, 5:00 PM
+      </span>
+<span class="font-label-xs text-label-xs text-outline break-words">Canvas LMS submission</span>
+</div>
+<div class="w-28 shrink-0 flex items-center">
+<span class="px-3 py-1 rounded-full bg-error-container text-on-error-container font-label-xs text-label-xs font-bold inline-flex items-center gap-1.5 whitespace-nowrap">
+<span class="w-1.5 h-1.5 rounded-full bg-on-error-container"></span> High
+      </span>
+</div>
+<div class="w-20 shrink-0 flex items-center justify-end gap-1">
+<button aria-label="Edit Task" class="edit-task-btn p-1.5 rounded-lg text-outline hover:text-primary hover:bg-surface-container transition-colors" type="button"><span class="material-symbols-outlined text-base">edit</span></button>
+<button aria-label="Delete Task" class="delete-task-btn p-1.5 rounded-lg text-outline hover:text-error hover:bg-error-container/40 transition-colors" type="button"><span class="material-symbols-outlined text-base">delete</span></button>
+</div>
+</article>
+<!-- Task 2 -->
+<article class="task-row flex items-center gap-4 px-6 py-4 sm:py-5 bg-surface-container-lowest rounded-xl shadow-sm border border-outline-variant/40 transition-all hover:shadow-md h-auto" data-course="CS 240" data-due="2024-10-25T23:59:00" data-priority="high" data-status="pending" data-task-id="2">
+<div class="w-8 shrink-0 flex items-center justify-center">
+<input class="task-checkbox h-4 w-4 rounded cursor-pointer accent-primary-container" type="checkbox"/>
+</div>
+<div class="flex-1 min-w-0 flex flex-col justify-center">
+<h2 class="task-title font-title-sm text-title-sm text-primary leading-snug break-words">Database Normalization Ch. 4–6 Problem Set</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant break-words mt-0.5">Deconstruct BCNF schemas and prove lossless decomposition constraints.</p>
+</div>
+<div class="w-28 shrink-0 hidden md:flex items-center">
+<span class="px-2.5 py-1 rounded-lg bg-surface-container-high text-on-surface font-label-xs text-label-xs font-semibold whitespace-nowrap">CS 240</span>
+</div>
+<div class="w-44 shrink-0 hidden sm:flex flex-col justify-center">
+<span class="font-label-sm text-label-sm text-secondary font-semibold whitespace-nowrap">Tomorrow, 11:59 PM</span>
+<span class="font-label-xs text-label-xs text-outline break-words">Gradescope PDF upload</span>
+</div>
+<div class="w-28 shrink-0 flex items-center">
+<span class="px-3 py-1 rounded-full bg-error-container text-on-error-container font-label-xs text-label-xs font-bold inline-flex items-center gap-1.5 whitespace-nowrap">
+<span class="w-1.5 h-1.5 rounded-full bg-on-error-container"></span> High
+      </span>
+</div>
+<div class="w-20 shrink-0 flex items-center justify-end gap-1">
+<button aria-label="Edit Task" class="edit-task-btn p-1.5 rounded-lg text-outline hover:text-primary hover:bg-surface-container transition-colors" type="button"><span class="material-symbols-outlined text-base">edit</span></button>
+<button aria-label="Delete Task" class="delete-task-btn p-1.5 rounded-lg text-outline hover:text-error hover:bg-error-container/40 transition-colors" type="button"><span class="material-symbols-outlined text-base">delete</span></button>
+</div>
+</article>
+<!-- Task 3 -->
+<article class="task-row flex items-center gap-4 px-6 py-4 sm:py-5 bg-surface-container-lowest rounded-xl shadow-sm border border-outline-variant/40 transition-all hover:shadow-md h-auto" data-course="ENG 410" data-due="2024-10-28T14:00:00" data-priority="medium" data-status="pending" data-task-id="3">
+<div class="w-8 shrink-0 flex items-center justify-center">
+<input class="task-checkbox h-4 w-4 rounded cursor-pointer accent-primary-container" type="checkbox"/>
+</div>
+<div class="flex-1 min-w-0 flex flex-col justify-center">
+<h2 class="task-title font-title-sm text-title-sm text-primary leading-snug break-words">Victorian Literature Critical Essay Draft</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant break-words mt-0.5">Close reading of Tennyson's In Memoriam through industrial temporal shifts.</p>
+</div>
+<div class="w-28 shrink-0 hidden md:flex items-center">
+<span class="px-2.5 py-1 rounded-lg bg-surface-container-high text-on-surface font-label-xs text-label-xs font-semibold whitespace-nowrap">ENG 410</span>
+</div>
+<div class="w-44 shrink-0 hidden sm:flex flex-col justify-center">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold whitespace-nowrap">Oct 28, 2024</span>
+<span class="font-label-xs text-label-xs text-outline break-words">Seminar peer circulation</span>
+</div>
+<div class="w-28 shrink-0 flex items-center">
+<span class="px-3 py-1 rounded-full bg-secondary-container text-on-secondary-fixed font-label-xs text-label-xs font-bold inline-flex items-center gap-1.5 whitespace-nowrap">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span> Medium
+      </span>
+</div>
+<div class="w-20 shrink-0 flex items-center justify-end gap-1">
+<button aria-label="Edit Task" class="edit-task-btn p-1.5 rounded-lg text-outline hover:text-primary hover:bg-surface-container transition-colors" type="button"><span class="material-symbols-outlined text-base">edit</span></button>
+<button aria-label="Delete Task" class="delete-task-btn p-1.5 rounded-lg text-outline hover:text-error hover:bg-error-container/40 transition-colors" type="button"><span class="material-symbols-outlined text-base">delete</span></button>
+</div>
+</article>
+<!-- Task 4 -->
+<article class="task-row flex items-center gap-4 px-6 py-4 sm:py-5 bg-surface-container-lowest rounded-xl shadow-sm border border-outline-variant/40 transition-all hover:shadow-md h-auto" data-course="MATH 220" data-due="2024-11-03T18:00:00" data-priority="medium" data-status="pending" data-task-id="4">
+<div class="w-8 shrink-0 flex items-center justify-center">
+<input class="task-checkbox h-4 w-4 rounded cursor-pointer accent-primary-container" type="checkbox"/>
+</div>
+<div class="flex-1 min-w-0 flex flex-col justify-center">
+<h2 class="task-title font-title-sm text-title-sm text-primary leading-snug break-words">Calculus III Multivariable Optimization</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant break-words mt-0.5">Lagrange multipliers with boundary extrema exercises &amp; 3D plot proofs.</p>
+</div>
+<div class="w-28 shrink-0 hidden md:flex items-center">
+<span class="px-2.5 py-1 rounded-lg bg-surface-container-high text-on-surface font-label-xs text-label-xs font-semibold whitespace-nowrap">MATH 220</span>
+</div>
+<div class="w-44 shrink-0 hidden sm:flex flex-col justify-center">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold whitespace-nowrap">Nov 03, 2024</span>
+<span class="font-label-xs text-label-xs text-outline break-words">Recitation session turn-in</span>
+</div>
+<div class="w-28 shrink-0 flex items-center">
+<span class="px-3 py-1 rounded-full bg-secondary-container text-on-secondary-fixed font-label-xs text-label-xs font-bold inline-flex items-center gap-1.5 whitespace-nowrap">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span> Medium
+      </span>
+</div>
+<div class="w-20 shrink-0 flex items-center justify-end gap-1">
+<button aria-label="Edit Task" class="edit-task-btn p-1.5 rounded-lg text-outline hover:text-primary hover:bg-surface-container transition-colors" type="button"><span class="material-symbols-outlined text-base">edit</span></button>
+<button aria-label="Delete Task" class="delete-task-btn p-1.5 rounded-lg text-outline hover:text-error hover:bg-error-container/40 transition-colors" type="button"><span class="material-symbols-outlined text-base">delete</span></button>
+</div>
+</article>
+<!-- Task 5 -->
+<article class="task-row flex items-center gap-4 px-6 py-4 sm:py-5 bg-surface-container-lowest rounded-xl shadow-sm border border-outline-variant/40 transition-all hover:shadow-md h-auto" data-course="PSYC 304" data-due="2024-11-12T12:00:00" data-priority="low" data-status="pending" data-task-id="5">
+<div class="w-8 shrink-0 flex items-center justify-center">
+<input class="task-checkbox h-4 w-4 rounded cursor-pointer accent-primary-container" type="checkbox"/>
+</div>
+<div class="flex-1 min-w-0 flex flex-col justify-center">
+<h2 class="task-title font-title-sm text-title-sm text-primary leading-snug break-words">Senior Thesis Methodology Draft Outline</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant break-words mt-0.5">Preliminary review of IRB participant cohort selection and survey matrices.</p>
+</div>
+<div class="w-28 shrink-0 hidden md:flex items-center">
+<span class="px-2.5 py-1 rounded-lg bg-surface-container-high text-on-surface font-label-xs text-label-xs font-semibold whitespace-nowrap">PSYC 304</span>
+</div>
+<div class="w-44 shrink-0 hidden sm:flex flex-col justify-center">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold whitespace-nowrap">Nov 12, 2024</span>
+<span class="font-label-xs text-label-xs text-outline break-words">Advisor office review</span>
+</div>
+<div class="w-28 shrink-0 flex items-center">
+<span class="px-3 py-1 rounded-full bg-surface-container text-on-surface-variant font-label-xs text-label-xs font-bold inline-flex items-center gap-1.5 whitespace-nowrap">
+<span class="w-1.5 h-1.5 rounded-full bg-outline"></span> Low
+      </span>
+</div>
+<div class="w-20 shrink-0 flex items-center justify-end gap-1">
+<button aria-label="Edit Task" class="edit-task-btn p-1.5 rounded-lg text-outline hover:text-primary hover:bg-surface-container transition-colors" type="button"><span class="material-symbols-outlined text-base">edit</span></button>
+<button aria-label="Delete Task" class="delete-task-btn p-1.5 rounded-lg text-outline hover:text-error hover:bg-error-container/40 transition-colors" type="button"><span class="material-symbols-outlined text-base">delete</span></button>
+</div>
+</article>
+<!-- Task 6 (Completed) -->
+<article class="task-row flex items-center gap-4 px-6 py-4 sm:py-5 bg-surface-container-lowest/80 rounded-xl border border-outline-variant/40 transition-all opacity-75 h-auto" data-course="CS 240" data-due="2024-10-18T17:00:00" data-priority="high" data-status="completed" data-task-id="6">
+<div class="w-8 shrink-0 flex items-center justify-center">
+<input checked="" class="task-checkbox h-4 w-4 rounded cursor-pointer accent-primary-container" type="checkbox"/>
+</div>
+<div class="flex-1 min-w-0 flex flex-col justify-center">
+<h2 class="task-title font-title-sm text-title-sm text-outline line-through leading-snug break-words">Relational Algebra &amp; Query Optimization Lab</h2>
+<p class="font-body-sm text-body-sm text-outline/80 break-words mt-0.5">Executed SQL profiling on partitioned indexed tables with benchmark analysis.</p>
+</div>
+<div class="w-28 shrink-0 hidden md:flex items-center">
+<span class="px-2.5 py-1 rounded-lg bg-surface-container text-on-surface-variant font-label-xs text-label-xs whitespace-nowrap">CS 240</span>
+</div>
+<div class="w-44 shrink-0 hidden sm:flex flex-col justify-center">
+<span class="font-label-sm text-label-sm text-outline line-through whitespace-nowrap">Oct 18, 2024</span>
+<span class="font-label-xs text-label-xs text-secondary-fixed-variant break-words">Graded: 98/100 (A+)</span>
+</div>
+<div class="w-28 shrink-0 flex items-center">
+<span class="px-3 py-1 rounded-full bg-surface-container-high text-on-surface-variant font-label-xs text-label-xs font-semibold whitespace-nowrap">Completed</span>
+</div>
+<div class="w-20 shrink-0 flex items-center justify-end gap-1">
+<button aria-label="Edit Task" class="edit-task-btn p-1.5 rounded-lg text-outline hover:text-primary hover:bg-surface-container transition-colors" type="button"><span class="material-symbols-outlined text-base">edit</span></button>
+<button aria-label="Delete Task" class="delete-task-btn p-1.5 rounded-lg text-outline hover:text-error hover:bg-error-container/40 transition-colors" type="button"><span class="material-symbols-outlined text-base">delete</span></button>
+</div>
+</article>
+<!-- Task 7 (Completed) -->
+<article class="task-row flex items-center gap-4 px-6 py-4 sm:py-5 bg-surface-container-lowest/80 rounded-xl border border-outline-variant/40 transition-all opacity-75 h-auto" data-course="ENG 410" data-due="2024-10-15T11:00:00" data-priority="medium" data-status="completed" data-task-id="7">
+<div class="w-8 shrink-0 flex items-center justify-center">
+<input checked="" class="task-checkbox h-4 w-4 rounded cursor-pointer accent-primary-container" type="checkbox"/>
+</div>
+<div class="flex-1 min-w-0 flex flex-col justify-center">
+<h2 class="task-title font-title-sm text-title-sm text-outline line-through leading-snug break-words">Annotated Bibliography on Gothic Motifs</h2>
+<p class="font-body-sm text-body-sm text-outline/80 break-words mt-0.5">8 scholarly articles analyzed with theoretical frameworks from Gilbert &amp; Gubar.</p>
+</div>
+<div class="w-28 shrink-0 hidden md:flex items-center">
+<span class="px-2.5 py-1 rounded-lg bg-surface-container text-on-surface-variant font-label-xs text-label-xs whitespace-nowrap">ENG 410</span>
+</div>
+<div class="w-44 shrink-0 hidden sm:flex flex-col justify-center">
+<span class="font-label-sm text-label-sm text-outline line-through whitespace-nowrap">Oct 15, 2024</span>
+<span class="font-label-xs text-label-xs text-secondary-fixed-variant break-words">Graded: 100/100 (A+)</span>
+</div>
+<div class="w-28 shrink-0 flex items-center">
+<span class="px-3 py-1 rounded-full bg-surface-container-high text-on-surface-variant font-label-xs text-label-xs font-semibold whitespace-nowrap">Completed</span>
+</div>
+<div class="w-20 shrink-0 flex items-center justify-end gap-1">
+<button aria-label="Edit Task" class="edit-task-btn p-1.5 rounded-lg text-outline hover:text-primary hover:bg-surface-container transition-colors" type="button"><span class="material-symbols-outlined text-base">edit</span></button>
+<button aria-label="Delete Task" class="delete-task-btn p-1.5 rounded-lg text-outline hover:text-error hover:bg-error-container/40 transition-colors" type="button"><span class="material-symbols-outlined text-base">delete</span></button>
+</div>
+</article>
+</div>
+<!-- Empty state feedback -->
+<div class="hidden p-space-xl flex-col items-center justify-center text-center bg-surface-container-lowest rounded-xl shadow-sm border border-outline-variant/40 mt-space-sm h-auto" id="no-tasks-state">
+<span class="material-symbols-outlined text-4xl text-outline mb-2">fact_check</span>
+<h3 class="font-headline-sm text-headline-sm text-primary">No matching assignments</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant max-w-sm mt-1">Adjust your filters or query to review scheduled course obligations.</p>
+</div>
+<!-- Bottom Status Bar -->
+<div class="mt-space-md p-space-md bg-surface-container-lowest rounded-xl shadow-sm border border-outline-variant/40 flex flex-col sm:flex-row items-center justify-between gap-space-sm text-label-sm font-label-sm text-on-surface-variant h-auto">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-base text-secondary">cloud_done</span>
+<span class="">Auto-synced with University Registrar &amp; Canvas SIS</span>
+</div>
+<div class="flex items-center gap-space-md">
+<span class="">Showing <strong class="text-primary font-semibold" id="visible-count">7</strong> of 23 records</span>
+<button class="text-secondary hover:underline font-label-md" type="button">View Completed Archive</button>
+</div>
+</div>
+</div>
+<!-- Interactive Add / Edit Task Modal Overlay -->
+<dialog class="fixed inset-0 z-50 p-4 bg-transparent backdrop:bg-primary-container/40 backdrop:backdrop-blur-sm m-auto w-full max-w-xl transition-all" id="task-modal">
+<div class="bg-surface-container-lowest rounded-xl shadow-xl overflow-hidden flex flex-col h-auto">
+<!-- Modal Header -->
+<div class="px-space-lg py-space-md bg-surface-container-low flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-lg">edit_note</span>
+<div>
+<h2 class="font-headline-sm text-headline-sm text-primary font-display leading-tight" id="modal-heading">Add New Task</h2>
+<p class="font-label-xs text-label-xs text-on-surface-variant">Log course milestone into personal study timeline</p>
+</div>
+</div>
+<button class="p-1 rounded-lg text-outline hover:text-primary hover:bg-surface-container transition-colors" id="close-modal-x-btn" type="button">
+<span class="material-symbols-outlined text-lg">close</span>
+</button>
+</div>
+<!-- Modal Body / Form -->
+<form class="p-space-lg flex flex-col gap-space-md h-auto" id="task-form">
+<input id="task-edit-id" type="hidden" value=""/>
+<!-- Title -->
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-primary font-semibold" for="modal-title">Task Title <span class="text-error">*</span></label>
+<input class="w-full bg-surface-container-low text-on-surface font-body-md text-body-md rounded-xl px-3 py-2 outline-none focus:bg-surface-container-lowest focus:ring-1 focus:ring-secondary/50 placeholder:text-outline transition-all" id="modal-title" placeholder="e.g. Draft Introduction &amp; Methodology" required="" type="text"/>
+</div>
+<!-- Course & Priority Duo -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-primary font-semibold" for="modal-course">Course Module <span class="text-error">*</span></label>
+<div class="relative">
+<select class="appearance-none w-full bg-surface-container-low text-on-surface font-body-sm text-body-sm rounded-xl px-3 py-2 pr-8 outline-none focus:bg-surface-container-lowest focus:ring-1 focus:ring-secondary/50 cursor-pointer" id="modal-course" required="">
+<option value="PSYC 304">PSYC 304: Cognitive Psychology</option>
+<option value="CS 240">CS 240: Database Architecture</option>
+<option value="ENG 410">ENG 410: Victorian Literature</option>
+<option value="MATH 220">MATH 220: Calculus III</option>
+</select>
+<span class="material-symbols-outlined absolute right-2 top-1/2 -translate-y-1/2 pointer-events-none text-outline text-sm">expand_more</span>
+</div>
+</div>
+<div class="flex flex-col gap-1">
+<span class="font-label-sm text-label-sm text-primary font-semibold">Priority Pacing</span>
+<div class="flex items-center gap-space-xs pt-0.5">
+<label class="flex-1 cursor-pointer">
+<input class="sr-only peer" name="priority" type="radio" value="high"/>
+<span class="flex items-center justify-center py-1.5 rounded-lg bg-surface-container text-body-sm font-label-xs text-on-surface-variant peer-checked:bg-error-container peer-checked:text-on-error-container peer-checked:font-bold transition-all text-center">
+                  High
+                </span>
+</label>
+<label class="flex-1 cursor-pointer">
+<input checked="" class="sr-only peer" name="priority" type="radio" value="medium"/>
+<span class="flex items-center justify-center py-1.5 rounded-lg bg-surface-container text-body-sm font-label-xs text-on-surface-variant peer-checked:bg-secondary-container peer-checked:text-on-secondary-fixed peer-checked:font-bold transition-all text-center">
+                  Medium
+                </span>
+</label>
+<label class="flex-1 cursor-pointer">
+<input class="sr-only peer" name="priority" type="radio" value="low"/>
+<span class="flex items-center justify-center py-1.5 rounded-lg bg-surface-container text-body-sm font-label-xs text-on-surface-variant peer-checked:bg-primary-container peer-checked:text-on-primary peer-checked:font-bold transition-all text-center">
+                  Low
+                </span>
+</label>
+</div>
+</div>
+</div>
+<!-- Due Date & Time -->
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-primary font-semibold" for="modal-due">Due Date &amp; Time <span class="text-error">*</span></label>
+<input class="w-full bg-surface-container-low text-on-surface font-body-sm text-body-sm rounded-xl px-3 py-2 outline-none focus:bg-surface-container-lowest focus:ring-1 focus:ring-secondary/50 cursor-pointer transition-all" id="modal-due" required="" type="datetime-local"/>
+</div>
+<!-- Description -->
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-primary font-semibold" for="modal-desc">Description &amp; Rubric Notes <span class="font-normal text-outline text-xs">(optional)</span></label>
+<textarea class="w-full bg-surface-container-low text-on-surface font-body-sm text-body-sm rounded-xl p-3 outline-none focus:bg-surface-container-lowest focus:ring-1 focus:ring-secondary/50 placeholder:text-outline resize-none transition-all" id="modal-desc" placeholder="Key requirements, source notes, or rubric checklists..." rows="3"></textarea>
+</div>
+<!-- Modal Actions -->
+<div class="flex items-center justify-end gap-space-sm pt-space-xs mt-space-xs">
+<button class="px-space-md py-space-sm rounded-xl bg-surface-container-high hover:bg-surface-container text-on-surface font-label-md text-label-md transition-all" id="cancel-modal-btn" type="button">
+            Cancel
+          </button>
+<button class="px-space-lg py-space-sm rounded-xl bg-primary-container hover:bg-on-surface-variant text-on-primary font-title-sm text-title-sm shadow-sm transition-all inline-flex items-center gap-1.5" type="submit">
+<span class="material-symbols-outlined text-secondary-fixed text-base">check</span>
+<span class="" id="modal-submit-label">Save Task</span>
+</button>
+</div>
+</form>
+</div>
+</dialog>
+<!-- Interactive Logic Script -->
+<script>
+    (function () {
+      const modal = document.getElementById('task-modal');
+      const openModalBtn = document.getElementById('open-add-task-modal-btn');
+      const closeModalXBtn = document.getElementById('close-modal-x-btn');
+      const cancelModalBtn = document.getElementById('cancel-modal-btn');
+      const taskForm = document.getElementById('task-form');
+      const taskList = document.getElementById('task-list');
+      const searchInput = document.getElementById('task-search-input');
+      const courseFilter = document.getElementById('course-filter-select');
+      const sortSelect = document.getElementById('sort-select');
+      const filterButtons = document.querySelectorAll('.filter-btn');
+      const noTasksState = document.getElementById('no-tasks-state');
+      const visibleCountLabel = document.getElementById('visible-count');
+
+      let currentStatusFilter = 'all';
+
+      // Open / Close Modal helpers
+      function openModal(isEdit = false, taskData = null) {
+        if (!modal) return;
+        const heading = document.getElementById('modal-heading');
+        const submitLabel = document.getElementById('modal-submit-label');
+        const editIdInput = document.getElementById('task-edit-id');
+        const titleInput = document.getElementById('modal-title');
+        const courseSelect = document.getElementById('modal-course');
+        const descInput = document.getElementById('modal-desc');
+        const dueInput = document.getElementById('modal-due');
+
+        if (isEdit && taskData) {
+          heading.textContent = 'Edit Academic Task';
+          submitLabel.textContent = 'Update Task';
+          editIdInput.value = taskData.id;
+          titleInput.value = taskData.title;
+          courseSelect.value = taskData.course;
+          descInput.value = taskData.desc;
+          dueInput.value = taskData.due || '2024-10-28T17:00';
+          const radio = document.querySelector(`input[name="priority"][value="${taskData.priority}"]`);
+          if (radio) radio.checked = true;
+        } else {
+          heading.textContent = 'Add New Task';
+          submitLabel.textContent = 'Save Task';
+          editIdInput.value = '';
+          taskForm.reset();
+          // default date tomorrow
+          const tomorrow = new Date();
+          tomorrow.setDate(tomorrow.getDate() + 1);
+          tomorrow.setHours(17, 0, 0, 0);
+          dueInput.value = tomorrow.toISOString().slice(0, 16);
+        }
+        modal.showModal();
+      }
+
+      function closeModal() {
+        if (modal) modal.close();
+      }
+
+      openModalBtn?.addEventListener('click', () => openModal(false));
+      closeModalXBtn?.addEventListener('click', closeModal);
+      cancelModalBtn?.addEventListener('click', closeModal);
+      modal?.addEventListener('click', (e) => {
+        if (e.target === modal) closeModal();
+      });
+
+      // Filter & Search application
+      function applyFilters() {
+        const query = (searchInput?.value || '').toLowerCase().trim();
+        const selectedCourse = courseFilter?.value || 'all';
+        const rows = Array.from(taskList.querySelectorAll('.task-row'));
+        let visibleCount = 0;
+
+        rows.forEach((row) => {
+          const status = row.getAttribute('data-status');
+          const course = row.getAttribute('data-course');
+          const title = row.querySelector('.task-title')?.textContent?.toLowerCase() || '';
+          const desc = row.querySelector('p')?.textContent?.toLowerCase() || '';
+
+          const matchesStatus = (currentStatusFilter === 'all') || (status === currentStatusFilter);
+          const matchesCourse = (selectedCourse === 'all') || (course === selectedCourse);
+          const matchesQuery = !query || title.includes(query) || desc.includes(query) || course.toLowerCase().includes(query);
+
+          if (matchesStatus && matchesCourse && matchesQuery) {
+            row.style.display = 'flex';
+            visibleCount++;
+          } else {
+            row.style.display = 'none';
+          }
+        });
+
+        if (visibleCountLabel) visibleCountLabel.textContent = visibleCount;
+        if (noTasksState) {
+          noTasksState.style.display = visibleCount === 0 ? 'flex' : 'none';
+        }
+      }
+
+      // Tab switcher
+      filterButtons.forEach((btn) => {
+        btn.addEventListener('click', () => {
+          filterButtons.forEach((b) => {
+            b.classList.remove('bg-primary-container', 'text-on-primary', 'shadow-sm');
+            b.classList.add('text-on-surface-variant');
+          });
+          btn.classList.add('bg-primary-container', 'text-on-primary', 'shadow-sm');
+          btn.classList.remove('text-on-surface-variant');
+
+          currentStatusFilter = btn.getAttribute('data-filter') || 'all';
+          applyFilters();
+        });
+      });
+
+      searchInput?.addEventListener('input', applyFilters);
+      courseFilter?.addEventListener('change', applyFilters);
+
+      // Sorting
+      sortSelect?.addEventListener('change', (e) => {
+        const val = e.target.value;
+        const rows = Array.from(taskList.querySelectorAll('.task-row'));
+
+        rows.sort((a, b) => {
+          if (val === 'name-asc') {
+            const tA = a.querySelector('.task-title')?.textContent || '';
+            const tB = b.querySelector('.task-title')?.textContent || '';
+            return tA.localeCompare(tB);
+          }
+          if (val === 'priority-desc') {
+            const pMap = { high: 3, medium: 2, low: 1 };
+            const pA = pMap[a.getAttribute('data-priority')] || 0;
+            const pB = pMap[b.getAttribute('data-priority')] || 0;
+            return pB - pA;
+          }
+          if (val === 'due-desc') {
+            return new Date(b.getAttribute('data-due') || 0) - new Date(a.getAttribute('data-due') || 0);
+          }
+          // due-asc default
+          return new Date(a.getAttribute('data-due') || 0) - new Date(b.getAttribute('data-due') || 0);
+        });
+
+        rows.forEach((r) => taskList.appendChild(r));
+      });
+
+      // Delegation: Checkboxes & Actions
+      taskList?.addEventListener('change', (e) => {
+        if (e.target.classList.contains('task-checkbox')) {
+          const row = e.target.closest('.task-row');
+          if (!row) return;
+          const isChecked = e.target.checked;
+          const title = row.querySelector('.task-title');
+
+          if (isChecked) {
+            row.setAttribute('data-status', 'completed');
+            row.classList.add('opacity-75');
+            if (title) title.classList.add('line-through', 'text-outline');
+          } else {
+            row.setAttribute('data-status', 'pending');
+            row.classList.remove('opacity-75');
+            if (title) title.classList.remove('line-through', 'text-outline');
+          }
+          updateCounters();
+          applyFilters();
+        }
+      });
+
+      taskList?.addEventListener('click', (e) => {
+        const deleteBtn = e.target.closest('.delete-task-btn');
+        if (deleteBtn) {
+          const row = deleteBtn.closest('.task-row');
+          if (row && confirm('Are you sure you want to remove this academic task?')) {
+            row.remove();
+            updateCounters();
+            applyFilters();
+          }
+          return;
+        }
+
+        const editBtn = e.target.closest('.edit-task-btn');
+        if (editBtn) {
+          const row = editBtn.closest('.task-row');
+          if (!row) return;
+          const taskData = {
+            id: row.getAttribute('data-task-id') || '',
+            title: row.querySelector('.task-title')?.textContent?.trim() || '',
+            desc: row.querySelector('p')?.textContent?.trim() || '',
+            course: row.getAttribute('data-course') || 'PSYC 304',
+            priority: row.getAttribute('data-priority') || 'medium',
+            due: row.getAttribute('data-due') || ''
+          };
+          openModal(true, taskData);
+        }
+      });
+
+      // Form submission
+      taskForm?.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const editId = document.getElementById('task-edit-id')?.value;
+        const title = document.getElementById('modal-title')?.value || 'Untitled Assignment';
+        const course = document.getElementById('modal-course')?.value || 'GEN 101';
+        const desc = document.getElementById('modal-desc')?.value || 'No additional instructions provided.';
+        const due = document.getElementById('modal-due')?.value || '';
+        const priority = document.querySelector('input[name="priority"]:checked')?.value || 'medium';
+
+        if (editId) {
+          // Update existing
+          const row = taskList.querySelector(`[data-task-id="${editId}"]`);
+          if (row) {
+            row.setAttribute('data-course', course);
+            row.setAttribute('data-priority', priority);
+            if (due) row.setAttribute('data-due', due);
+            const titleElem = row.querySelector('.task-title');
+            const descElem = row.querySelector('p');
+            if (titleElem) titleElem.textContent = title;
+            if (descElem) descElem.textContent = desc;
+          }
+        } else {
+          // Create new task row
+          const newId = Date.now().toString();
+          const newRow = document.createElement('article');
+          newRow.className = 'task-row flex items-center gap-4 px-6 py-4 sm:py-5 bg-surface-container-lowest rounded-xl shadow-sm border border-outline-variant/40 transition-all hover:shadow-md h-auto';
+          newRow.setAttribute('data-task-id', newId);
+          newRow.setAttribute('data-status', 'pending');
+          newRow.setAttribute('data-course', course);
+          newRow.setAttribute('data-priority', priority);
+          newRow.setAttribute('data-due', due || new Date().toISOString());
+
+          const priorityBadge = priority === 'high' 
+            ? '<span class="px-3 py-1 rounded-full bg-error-container text-on-error-container font-label-xs text-label-xs font-bold inline-flex items-center gap-1.5 whitespace-nowrap"><span class="w-1.5 h-1.5 rounded-full bg-on-error-container"></span> High</span>'
+            : priority === 'medium'
+            ? '<span class="px-3 py-1 rounded-full bg-secondary-container text-on-secondary-fixed font-label-xs text-label-xs font-bold inline-flex items-center gap-1.5 whitespace-nowrap"><span class="w-1.5 h-1.5 rounded-full bg-secondary"></span> Medium</span>'
+            : '<span class="px-3 py-1 rounded-full bg-surface-container text-on-surface-variant font-label-xs text-label-xs font-bold inline-flex items-center gap-1.5 whitespace-nowrap"><span class="w-1.5 h-1.5 rounded-full bg-outline"></span> Low</span>';
+
+          const formattedDue = due ? due.replace('T', ' ') : 'Upcoming';
+
+          newRow.innerHTML = `
+            <div class="w-8 shrink-0 flex items-center justify-center">
+              <input type="checkbox" class="task-checkbox h-4 w-4 rounded cursor-pointer accent-primary-container" />
+            </div>
+            <div class="flex-1 min-w-0 flex flex-col justify-center">
+              <h2 class="task-title font-title-sm text-title-sm text-primary leading-snug break-words">${escapeHTML(title)}</h2>
+              <p class="font-body-sm text-body-sm text-on-surface-variant break-words mt-0.5">${escapeHTML(desc)}</p>
+            </div>
+            <div class="w-28 shrink-0 hidden md:flex items-center">
+              <span class="px-2.5 py-1 rounded-lg bg-surface-container-high text-on-surface font-label-xs text-label-xs font-semibold whitespace-nowrap">${escapeHTML(course)}</span>
+            </div>
+            <div class="w-44 shrink-0 hidden sm:flex flex-col justify-center">
+              <span class="font-label-sm text-label-sm text-on-surface font-semibold whitespace-nowrap">${escapeHTML(formattedDue)}</span>
+              <span class="font-label-xs text-label-xs text-outline break-words">Custom Schedule</span>
+            </div>
+            <div class="w-28 shrink-0 flex items-center">
+              ${priorityBadge}
+            </div>
+            <div class="w-20 shrink-0 flex items-center justify-end gap-1">
+              <button type="button" aria-label="Edit Task" class="edit-task-btn p-1.5 rounded-lg text-outline hover:text-primary hover:bg-surface-container transition-colors">
+                <span class="material-symbols-outlined text-base">edit</span>
+              </button>
+              <button type="button" aria-label="Delete Task" class="delete-task-btn p-1.5 rounded-lg text-outline hover:text-error hover:bg-error-container/40 transition-colors">
+                <span class="material-symbols-outlined text-base">delete</span>
+              </button>
+            </div>
+          `;
+          taskList.prepend(newRow);
+        }
+
+        closeModal();
+        updateCounters();
+        applyFilters();
+      });
+
+      function updateCounters() {
+        const rows = taskList.querySelectorAll('.task-row');
+        const pending = taskList.querySelectorAll('.task-row[data-status="pending"]').length;
+        const completed = taskList.querySelectorAll('.task-row[data-status="completed"]').length;
+        
+        const metricPending = document.getElementById('metric-pending');
+        const metricCompleted = document.getElementById('metric-completed');
+        const metricTotal = document.getElementById('metric-total');
+
+        if (metricPending) metricPending.textContent = pending;
+        if (metricCompleted) metricCompleted.textContent = completed;
+        if (metricTotal) metricTotal.textContent = rows.length;
+      }
+
+      function escapeHTML(str) {
+        return str.replace(/[&<>'"]/g, 
+          tag => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' }[tag] || tag)
+        );
+      }
+    })();
+  </script>
+</div></main></div>
+</body></html>
